@@ -3,6 +3,4 @@ This repository dives deep into the realm of Cross-Site Scripting (XSS) vulnerab
 
 Find blog at: https://allbachelor.com/2024/03/31/cross-site-scripting/
 
-<script>
-  alert("hello world");
-</script>
+<img src=x onerror=alert("hello")>
